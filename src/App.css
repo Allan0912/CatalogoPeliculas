@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body, html{
+    background: rgb(4,4,46);
+    background: radial-gradient(circle, rgba(4,4,46,1) 41%, rgba(4,4,22,1) 91%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.container-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(56, 56, 56, 0.137);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.films{
+    width: 100%;
+    height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+ .container:hover .films{
+    border-radius: 0 0 20px;
+    transition: .5s;
+    position: relative;
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container:hover .films {
+    border: solid 3px yellow;
+    transition: 0.5s;
+    @apply scale-110 translate-x-10 translate-y-12;
+    box-shadow: -42px -18px 90px 18px rgba (0,0,0,0.64);
+    -webkit-box-shadow: -42px -18px 90px 18px rgba(146, 18, 114, 0.452);
+    -moz-box-shadow: -42px -18px 90px 18px rgba(146, 18, 114, 0.041); 
+   
+}
+
+
+.container .title-films{
+    visibility: hidden;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+ 
+    
+
+}
+
+.container .title-films {
+    visibility: hidden;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container:hover .title-films{
+    visibility: visible;
+    transition: 1s;
+    @apply scale-110 translate-x-10 translate-y-12;
+
 }
