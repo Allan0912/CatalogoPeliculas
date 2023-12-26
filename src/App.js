@@ -14,10 +14,10 @@ if (process.env.NODE_ENV === 'production'){
 }
 
  function App() {
-  const API_URL = process.env.API_URL || 'https://api.themoviedb.org/3';
-  const API_KEY = process.env.API_KEY || 'b3409e5f1b6ac61f00368b8fd6e42c62';
- // const IMAGE_PATH = process.env.IMAGE_PATH || 'https://image.tmdb.org/t/p/w500';
-  const URL_IMAGE = process.env.URL_IMAGE || 'https://image.tmdb.org/t/p/w500';
+  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_URL = process.env.REACT_APP_API_URL;
+  //const IMAGE_PATH = process.env.REACT_APP_IMAGE_PATH;
+  const URL_IMAGE = process.env.REACT_APP_URL_IMAGE;
 
 
   //variables de estado

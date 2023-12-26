@@ -21,6 +21,7 @@ header{
 
 .input-search{
     min-width: 35rem;
+    background-color: rgb(4,4,46);
     height: 40px;
     border-radius: 20px;
     padding-left: 20px;
