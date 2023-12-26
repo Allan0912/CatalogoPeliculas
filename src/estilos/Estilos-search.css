@@ -4,17 +4,26 @@
 @tailwind utilities;
 
 header{
-    min-width: 600px;
+    min-width: 550px;
+    transition: 0.7s;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 100;
+    
 }
 
 
 
 .input-search{
-    width: 100%;
+    min-width: 35rem;
     height: 40px;
     border-radius: 20px;
     padding-left: 20px;
-    background: rgb(4,4,46);
     background: radial-gradient(circle, rgba(4,4,46,1) 41%, rgba(4,4,22,1) 91%);
     @apply border  
          focus:border-purple-950 
