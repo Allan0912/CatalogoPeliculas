@@ -1,4 +1,4 @@
-
+import '../estilos/Estilos-menu.css'
 
 function OpcionMenu({onSubmit, onChange}){
     const max = new Date().getFullYear()
@@ -13,9 +13,8 @@ function OpcionMenu({onSubmit, onChange}){
     return(
         <form onSubmit={onSubmit} >
             <div className="row">
-
-                <div className="container-menu">
-                    <label>Año</label>
+                <div className="container-fechas">
+                    <label>Año: </label>
                     <select onChange={onChange}>
                         <option value="" >Seleccionar</option>
                         {optionYear()}

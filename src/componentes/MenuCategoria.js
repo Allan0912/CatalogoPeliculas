@@ -1,10 +1,10 @@
 
+import "../estilos/Estilos-menu.css"
 
 function Categoria({onSubmit,onChange}){
     return(
         <form onSubmit={onSubmit} >
-            <div className="row">
-                <div className="container-menu" ></div>
+            <div className="container-categoria">
                 <select onChange={onChange}>
                     <option value="">Categoria</option>
                     <option value="28">Accion</option>
