@@ -3,10 +3,8 @@ import OpcionMenu from './componentes/Menu';
 import MenuCategoria from './componentes/MenuCategoria'
 import './App.css';
 import axios from 'axios'; // libreria que nos ayuda a hacer peticiones al contenido de un enlace http
-//import YouTube from 'react-youtube';
 import React, {/*useDebugValue*/ useEffect, useState} from 'react';
 import { useDebounce } from './componentes/hooks/useDebounce';
-//import { Result } from 'postcss';
 
 
 if (process.env.NODE_ENV === 'production'){
@@ -14,10 +12,9 @@ if (process.env.NODE_ENV === 'production'){
 }
 
  function App() {
-  const API_KEY = process.env.REACT_APP_API_KEY;
-  const API_URL = process.env.REACT_APP_API_URL;
-  //const IMAGE_PATH = process.env.REACT_APP_IMAGE_PATH;
-  const URL_IMAGE = process.env.REACT_APP_URL_IMAGE;
+  const API_KEY = 'b3409e5f1b6ac61f00368b8fd6e42c62';
+  const API_URL = 'https://api.themoviedb.org/3';
+  const URL_IMAGE = 'https://image.tmdb.org/t/p/w500';
 
 
   //variables de estado
