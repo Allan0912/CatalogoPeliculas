@@ -17,7 +17,7 @@ import { useDebounce } from './componentes/hooks/useDebounce';
   //variables de estado
   const [films, setFilms] = useState([]);
   const [searchKey, setSearchKey] = useState('');
-  const [film, setFilm] = useState({title: "Loading movies"})
+  const [/*film*/, setFilm] = useState({title: "Loading movies"})
   const [selectedYear, setSelectedYear] = useState('');
   const [categoria, setCategoria] = useState('')
   const [trailer, setTrailer] = useState([])
