@@ -1,3 +1,4 @@
+
 .container-fechas  label {
    color:white;
    padding-right:10px;
@@ -9,7 +10,7 @@
 .container-fechas select,.container-categoria select {
     background-color: rgb(4,4,46);
     color: white;
-    @apply border border-4 border-purple-950 rounded-lg p-2 cursor-pointer mr-20
+    @apply border-4 border-purple-950 rounded-lg p-2 cursor-pointer mr-20
   }
  
   
