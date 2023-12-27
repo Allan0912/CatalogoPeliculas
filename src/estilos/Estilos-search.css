@@ -44,5 +44,8 @@ header{
     
 }
 
-
-
+@media screen and (max-width: 800px) {
+    .input-search {
+       min-width: 20rem;
+    }
+}

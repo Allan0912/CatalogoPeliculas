@@ -6,6 +6,9 @@
    font-weight: bold;
 }
 
+.container-fechas select{
+  margin-top: 30px;
+}
 
 .container-fechas select,.container-categoria select {
     background-color: rgb(4,4,46);
@@ -33,3 +36,4 @@
     @apply bg-purple-950
   }
   
+
