@@ -7,9 +7,6 @@ import React, {/*useDebugValue*/ useEffect, useState} from 'react';
 import { useDebounce } from './componentes/hooks/useDebounce';
 
 
-if (process.env.NODE_ENV === 'production'){
-  require ('dotenv').config()
-}
 
  function App() {
   const API_KEY = 'b3409e5f1b6ac61f00368b8fd6e42c62';
