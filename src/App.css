@@ -83,7 +83,7 @@ body, html{
 .container-menu{
     display: flex;
     align-items: flex-end;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 100px;
     margin-top: 10rem;
     height: 60px;
